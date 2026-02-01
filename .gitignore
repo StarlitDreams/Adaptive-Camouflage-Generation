@@ -1,0 +1,78 @@
+# ----------------------------
+# Python / venv
+# ----------------------------
+.venv/
+venv/
+env/
+ENV/
+*venv*/
+pip-wheel-metadata/
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.pkl
+*.pickle
+
+# ----------------------------
+# Build / packaging
+# ----------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.coverage
+coverage.xml
+
+# ----------------------------
+# Jupyter / notebooks
+# ----------------------------
+.ipynb_checkpoints/
+
+# ----------------------------
+# Images / outputs (biomes + generated)
+# ----------------------------
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.webp
+*.heic
+*.avif
+
+# Optional: if you sometimes store palettes or outputs in a folder
+outputs/
+out/
+results/
+renders/
+
+# ----------------------------
+# Logs
+# ----------------------------
+*.log
+
+# ----------------------------
+# OS / editor junk
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+
+# ----------------------------
+# Optional: local config / secrets
+# ----------------------------
+.env
+.env.*
