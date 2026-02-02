@@ -241,13 +241,6 @@ FFT cost grows quickly with grid size. Try:
 - [ ] Parameter auto‑tuning per biome (more “spotty” vs “stripy” control)
 - [ ] Output folder support (`--outdir outputs/`)
 
----
-
-## License
-Add a license if you plan to distribute:
-- MIT (simple + permissive)
-- Apache‑2.0 (patent grant)
-- GPL‑3.0 (copyleft)
 
 ---
 
