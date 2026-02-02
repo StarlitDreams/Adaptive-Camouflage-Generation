@@ -1,19 +1,4 @@
-"""
-Adaptive Camouflage Generation from a Biome Image
-- Extracts dominant colors from a biome image
-- Generates a seamless reaction–diffusion camouflage texture (Gierer–Meinhardt-style)
-- Two-scale blending (macro + micro)
-- Outputs:
-    - extracted_palette.png
-    - camouflage_final.png
-    - camouflage_evolution.gif
 
-Dependencies:
-  pip install numpy pillow
-
-Run:
-  python main.py --biome path/to/biome.jpg
-"""
 
 from __future__ import annotations
 
